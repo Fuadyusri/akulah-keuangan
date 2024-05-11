@@ -1,0 +1,44 @@
+/* layanan section */
+.layanan h2,
+.kontak h2 {
+    margin-bottom: 1rem;
+  }
+  .layanan p, 
+  .kontak p{
+    text-align: center;
+    max-width: 30rem;
+    margin: auto;
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1.6rem;
+  }
+  
+  .layanan .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5rem;
+    justify-content: center;
+  }
+  .layanan .row .layanan-card {
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .layanan .row .layanan-card img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 40%;
+
+  }
+
+  .layanan .row .layanan-card .card-title,
+  .laya {
+    margin: 0.5rem auto 0,5rem;
+    font-size: 1.4rem;
+  }
+.layanan .row .layanan-card a{
+    margin-top: '';
+    font-size: 1rem;
+}
